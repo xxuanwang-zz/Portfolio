@@ -1,2 +1,9 @@
-name: Xuan Wang
-markdown: kramdown
+highlighter: true
+permalink: /essays/:title.html
+source: source
+destination: build
+timezone: America/Denver
+safe: false
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
