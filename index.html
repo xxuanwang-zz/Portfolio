@@ -23,4 +23,20 @@ title: Xuan Wang
      <a href="https://www.linkedin.com/in/xuan-ayla-wang/">LinkedIn</a>,
      and <a href="mailto:xxxuan0213@gmail.com">Email</a>.
    </section>
+   <section id="essays">
+     <h2>Essays</h2>
+     <ul>
+     {% for post in site.posts %}
+       <li class="post">
+         <span class="title">
+           <a href="{{ post.url }}">{{ post.title }}</a>
+         </span>
+         <span class="date">
+           {{ post.date | date: "%b %d, %Y" }}
+         </span>
+       </li>
+       {% endfor %}
+   </ul>
+   </section>
+   {% include footer.html %}
 </div><!-- /.blurb -->
