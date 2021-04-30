@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Restart this year?"
+title: "Apache cTAKES"
 date: 2020-06-08
 ---
 
-We cannot restart this year, but I will remember this special period. Be gratefuland be thoughtful.
+Apache cTAKES is an open-source natural language processing system for information extraction from electronic medical record clinical text. We used it to extract information from electronic medical record clinical text.
